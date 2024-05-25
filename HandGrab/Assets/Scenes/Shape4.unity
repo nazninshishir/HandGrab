@@ -313,7 +313,7 @@ Transform:
   m_GameObject: {fileID: 266776284}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.21, y: 0.69, z: 1.12}
+  m_LocalPosition: {x: -1.21, y: 1.173, z: 0.32}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -647,7 +647,7 @@ Transform:
   m_GameObject: {fileID: 558781454}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2, y: 0.646, z: -0.64}
+  m_LocalPosition: {x: 1.2, y: 1.171, z: -0.94}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1056,8 +1056,8 @@ Transform:
   m_GameObject: {fileID: 1183071713}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1, y: 0.742, z: 1.03}
-  m_LocalScale: {x: 0.07099013, y: 0.06395479, z: 0.2236194}
+  m_LocalPosition: {x: 1.31, y: 1.173, z: 0.22}
+  m_LocalScale: {x: 0.079665124, y: 0.079431854, z: 0.28659075}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1310,13 +1310,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777953142}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.70020074, y: 0.5416713, z: -0.14865969, w: 0.44069427}
-  m_LocalPosition: {x: -1.37, y: 0.77, z: -0.72}
+  m_LocalRotation: {x: 0.63817877, y: 0.6369991, z: -0.32420418, w: 0.28609753}
+  m_LocalPosition: {x: -1.215, y: 1.178, z: -1.05}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 51.096, y: 154.614, z: 92.26}
+  m_LocalEulerAnglesHint: {x: 51.096, y: 184.504, z: 92.26}
 --- !u!114 &1777953148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1426,15 +1426,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.16407
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.79
+      value: 1.176
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.38
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1517,7 +1517,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1652,7 +1652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.13
+      value: 1.82
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1672,7 +1672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.04
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1702,7 +1702,9 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Instruction
 
-        Use your hand to grab the rectangle.'
+        Use your bare hand grab posture to grab the "Rectangle"
+        with your hand by approaching to the object as if you are grabbing this in
+        real world.'
       objectReference: {fileID: 0}
     - target: {fileID: 8852460159185593156, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Name

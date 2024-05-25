@@ -297,7 +297,7 @@ Transform:
   m_GameObject: {fileID: 266776284}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.66, y: 1.04, z: 1.3}
+  m_LocalPosition: {x: -1.66, y: 1.17, z: 0.42}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -631,7 +631,7 @@ Transform:
   m_GameObject: {fileID: 558781454}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.49, y: 1.054, z: -0.85}
+  m_LocalPosition: {x: 1.24, y: 1.19, z: -0.87}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -963,7 +963,7 @@ Transform:
   m_GameObject: {fileID: 1183071713}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.16, y: 1.05, z: 1.2}
+  m_LocalPosition: {x: 1.16, y: 1.17, z: 0.56}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1097,7 +1097,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1207426468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 175c56a0bf861c24b854bcb52df52ec0, type: 3}
+  m_Script: {fileID: 11500000, guid: 5dcf4b52fe4b528448b7addbe08bfd66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1247575227 stripped
@@ -1311,7 +1311,7 @@ Transform:
   m_GameObject: {fileID: 1777953142}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.83, y: 1.043, z: -0.79}
+  m_LocalPosition: {x: -1.63, y: 1.18, z: -0.99}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1454,7 +1454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.95
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 172039863338695678, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1504,8 +1504,9 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Instruction
 
-        Use your hand tracking raycast to select the pink
-        cube. After selecting, use your bare hand grab posture to grab it.'
+        Use your bare hand grab posture to grab the "Yellow"
+        cube with your hand by approaching to the object as if you are grabbing this
+        in real world.'
       objectReference: {fileID: 0}
     - target: {fileID: 8852460159185593156, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Name
@@ -1618,7 +1619,7 @@ Transform:
   m_GameObject: {fileID: 1958685507}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 1.038, z: -1.65}
+  m_LocalPosition: {x: -0.1, y: 1.17, z: -1.82}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
