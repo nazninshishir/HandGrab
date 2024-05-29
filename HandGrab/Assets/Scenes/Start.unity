@@ -552,8 +552,9 @@ PrefabInstance:
         have five different sub tasks.\n You will be required to grab specific object
         in each scene as per the instruction. Use your bare hand grab posture to
         grab the object with your hand by approaching to the object as if you are
-        grabbing this in real world.\nWhenever you are prepared for the test let
-        the assistant know it."
+        grabbing this in real world. After grabbing the object please return back
+        to your previous position.\nWhenever you are prepared for the test let the
+        assistant know it."
       objectReference: {fileID: 0}
     - target: {fileID: 6633284137969123484, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_FontData.m_FontSize

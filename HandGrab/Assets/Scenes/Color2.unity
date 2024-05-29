@@ -1502,11 +1502,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6633284137969123484, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Text
-      value: 'Instruction
+      value: 'COLOR TASK 2
 
         Use your bare hand grab posture to grab the "BLUE"
         cube with your hand by approaching to the object as if you are grabbing this
-        in real world.'
+        in real world. After grabbing the object please return back to your previous
+        position.'
       objectReference: {fileID: 0}
     - target: {fileID: 8852460159185593156, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Name
