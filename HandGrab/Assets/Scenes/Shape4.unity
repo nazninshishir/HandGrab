@@ -274,7 +274,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4944e2c33c99f9f46a4796e2e746213e, type: 2}
+  - {fileID: 2100000, guid: 663834164c6a04740aaa1b778249ce7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -313,7 +313,7 @@ Transform:
   m_GameObject: {fileID: 266776284}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.21, y: 1.173, z: 0.32}
+  m_LocalPosition: {x: 1.15, y: 1.173, z: -0.87}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -608,7 +608,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4944e2c33c99f9f46a4796e2e746213e, type: 2}
+  - {fileID: 2100000, guid: 663834164c6a04740aaa1b778249ce7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -647,7 +647,7 @@ Transform:
   m_GameObject: {fileID: 558781454}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2, y: 1.171, z: -0.94}
+  m_LocalPosition: {x: -1.058, y: 1.171, z: -0.886}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1017,7 +1017,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4944e2c33c99f9f46a4796e2e746213e, type: 2}
+  - {fileID: 2100000, guid: 663834164c6a04740aaa1b778249ce7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1055,13 +1055,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183071713}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.31, y: 1.173, z: 0.22}
+  m_LocalRotation: {x: -0, y: -0.6998979, z: -0, w: 0.71424294}
+  m_LocalPosition: {x: 0.074, y: 1.173, z: -1.264}
   m_LocalScale: {x: 0.079665124, y: 0.079431854, z: 0.28659075}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -88.838, z: 0}
 --- !u!114 &1183071719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1272,7 +1272,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4944e2c33c99f9f46a4796e2e746213e, type: 2}
+  - {fileID: 2100000, guid: 663834164c6a04740aaa1b778249ce7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1311,7 +1311,7 @@ Transform:
   m_GameObject: {fileID: 1777953142}
   serializedVersion: 2
   m_LocalRotation: {x: 0.63817877, y: 0.6369991, z: -0.32420418, w: 0.28609753}
-  m_LocalPosition: {x: -1.215, y: 1.178, z: -1.05}
+  m_LocalPosition: {x: 1.165, y: 1.178, z: 0.435}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1426,7 +1426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.07
+      value: -1.107
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1434,23 +1434,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.6
+      value: 0.499
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.34506756
+      value: -0.23835428
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.67868304
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.24951729
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.93857783
+      value: -0.64831924
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1458,7 +1458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 92.622
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1467,7 +1467,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4944e2c33c99f9f46a4796e2e746213e, type: 2}
+      objectReference: {fileID: 2100000, guid: 663834164c6a04740aaa1b778249ce7e, type: 2}
     - target: {fileID: 919132149155446097, guid: a0a20c8670b50c94990138bbd3e36895, type: 3}
       propertyPath: m_Name
       value: Triangle
@@ -1690,6 +1690,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2061609964902681012, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -196
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 137
+      objectReference: {fileID: 0}
     - target: {fileID: 3537370863309395559, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1702,10 +1714,8 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'SHAPE TASK 4
 
-        Use your bare hand grab posture to grab the "RECTANGLE"
-        with your hand by approaching to the object as if you are grabbing this in
-        real world. After grabbing the object please return back to your previous
-        position.'
+
+        Grab the "RECTANGLE".'
       objectReference: {fileID: 0}
     - target: {fileID: 8852460159185593156, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Name

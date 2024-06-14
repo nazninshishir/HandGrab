@@ -297,7 +297,7 @@ Transform:
   m_GameObject: {fileID: 266776284}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.66, y: 1.17, z: 0.42}
+  m_LocalPosition: {x: 1.25, y: 1.17, z: 0.52}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -631,7 +631,7 @@ Transform:
   m_GameObject: {fileID: 558781454}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.24, y: 1.19, z: -0.87}
+  m_LocalPosition: {x: 1.13, y: 1.19, z: -0.99}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -877,7 +877,7 @@ GameObject:
   - component: {fileID: 1183071719}
   - component: {fileID: 1183071721}
   m_Layer: 11
-  m_Name: Yellow
+  m_Name: Orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -963,7 +963,7 @@ Transform:
   m_GameObject: {fileID: 1183071713}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.16, y: 1.17, z: 0.56}
+  m_LocalPosition: {x: -0.09, y: 1.17, z: -1.46}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1272,7 +1272,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2512827267cc0da4a90ecb92fd35043b, type: 2}
+  - {fileID: 2100000, guid: dbe80190c9adea34c8c8845ca4a17934, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1311,7 +1311,7 @@ Transform:
   m_GameObject: {fileID: 1777953142}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.63, y: 1.18, z: -0.99}
+  m_LocalPosition: {x: -1.37, y: 1.18, z: -1.07}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1492,6 +1492,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2061609964902681012, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -197
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509643555615899368, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 144
+      objectReference: {fileID: 0}
     - target: {fileID: 3537370863309395559, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1504,10 +1516,12 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'COLOR TASK 2
 
-        Use your bare hand grab posture to grab the "BLUE"
-        cube with your hand by approaching to the object as if you are grabbing this
-        in real world. After grabbing the object please return back to your previous
-        position.'
+
+        Grab the "BLUE" cube.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6633284137969123484, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8852460159185593156, guid: ec2c837da9f100d44aa55f7312c96655, type: 3}
       propertyPath: m_Name
@@ -1620,7 +1634,7 @@ Transform:
   m_GameObject: {fileID: 1958685507}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 1.17, z: -1.82}
+  m_LocalPosition: {x: -1.36, y: 1.17, z: 0.51}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
